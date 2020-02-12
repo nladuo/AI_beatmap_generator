@@ -69,7 +69,7 @@ X = []
 START_POSITION = 4
 position = START_POSITION
 
-# with open("X2.json", "r") as f:
+# with open("X.json", "r") as f:
 #     X = json.load(f)
 
 feature = get_audio_features(x, sr, BPM, position, offset)
@@ -79,8 +79,8 @@ while len(feature) != 0:
     position += 1
     feature = get_audio_features(x, sr, BPM, position, offset)
 
-with open("X2.json", "w") as f:
-    json.dump(X, f)
+# with open("X.json", "w") as f:
+#     json.dump(X, f)
 
 print(len(X))
 
