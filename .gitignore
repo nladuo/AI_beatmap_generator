@@ -1,0 +1,8 @@
+__MACOSX
+.idea
+.ipynb_checkpoints
+*.json
+*.mc
+generated-with-ai.mcz
+0/
+__pycache__/
