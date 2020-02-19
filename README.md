@@ -1,7 +1,7 @@
 # AI_beatmap_generator
 尝试使用神经网络生成音乐游戏Malody的谱面。
 
-代码写的比较乱，主要是一堆
+代码写的比较乱，主要是一堆数据处理方面的代码。
 
 视频效果见B站：[av88526348](https://www.bilibili.com/video/av88526348?p=2)
 
